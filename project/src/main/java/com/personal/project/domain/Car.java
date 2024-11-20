@@ -16,7 +16,9 @@ public class Car {
 	
 	private int modelYear, price;
 	
-	
+	public Car() {
+		
+	}
 
 	public Car(String brand, String model, String color, String registrationNumber, int modelYear, int price) {
 		super();
